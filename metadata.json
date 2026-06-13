@@ -1,0 +1,6 @@
+{
+  "name": "Data Science Hub",
+  "description": "An interactive playground and AI-guided learning lab for Data Science, Machine Learning, and Deep Learning.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

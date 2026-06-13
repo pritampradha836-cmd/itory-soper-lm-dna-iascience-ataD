@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Connecting Line 1 to 2 -->
+    <path
+        android:strokeColor="#00B6B7"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M35,54 L70,34" />
+    <!-- Connecting Line 1 to 3 -->
+    <path
+        android:strokeColor="#FF1493"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M35,54 L70,74" />
+    <!-- Connecting Line 2 to 3 -->
+    <path
+        android:strokeColor="#8B5CF6"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M70,34 L70,74" />
+
+    <!-- Glow/Outer circles for nodes -->
+    <path
+        android:fillColor="#1A00B6B7"
+        android:pathData="M35,54m-12,0a12,12 0 1,1 24,0a12,12 0 1,1 -24,0" />
+    <path
+        android:fillColor="#1A8B5CF6"
+        android:pathData="M70,34m-12,0a12,12 0 1,1 24,0a12,12 0 1,1 -24,0" />
+    <path
+        android:fillColor="#1AFF1493"
+        android:pathData="M70,74m-12,0a12,12 0 1,1 24,0a12,12 0 1,1 -24,0" />
+
+    <!-- Node 1 Circle (Input Core) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#00B6B7"
+        android:strokeWidth="2"
+        android:pathData="M35,54m-6,0a6,6 0 1,1 12,0a6,6 0 1,1 -12,0" />
+    <!-- Node 2 Circle (Hidden core) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#8B5CF6"
+        android:strokeWidth="2"
+        android:pathData="M70,34m-6,0a6,6 0 1,1 12,0a6,6 0 1,1 -12,0" />
+    <!-- Node 3 Circle (Output core) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#FF1493"
+        android:strokeWidth="2"
+        android:pathData="M70,74m-6,0a6,6 0 1,1 12,0a6,6 0 1,1 -12,0" />
+</vector>
